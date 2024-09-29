@@ -1,4 +1,4 @@
-// solving the PAYE and its rate
+// deducts the PAYE using the corresponding rates
 function netSalary(basicsalary,benefits){
     let PAYE = {
 band1: 24000,
@@ -57,8 +57,8 @@ rate5: 0.35,
         // calculates NHIF deduction based on gross salary
         for (let i = 0; i < NHIF.length; i++) {
              if (grossSalary <= NHIF[i] || (NHIF[i].above && grossSalary > NHIF[i].above)) {
-                nhifDeduction - NHIF[i].deduction; //assign the corresponding deduction
-                break;   //exist the loop once the deduction is found
+                nhifDeduction - NHIF[i].deduction; //assign the deduction
+                break;   //ends loop
     
              }
         }
