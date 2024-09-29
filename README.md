@@ -1,4 +1,8 @@
 # JS-code-challenge-1
+The folder the  following three files:
+        #speed.js
+        #index.js
+        #script.js
 This project was built by:
 .vscode
 
@@ -44,8 +48,5 @@ Distributed under the MIT License. See LICENSE.txt for more information.
 
 CONTACT
 Name - alexnasiali45@gmail.com
-project Link:
-
-
-
+project Link: git@github.com:alexnasir/JS-code-challenge-1.git
 
