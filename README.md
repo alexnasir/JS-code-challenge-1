@@ -1,52 +1,27 @@
+Done 29/9/2024
+Author: Alex nasiali
+
+Description:
 # JS-code-challenge-1
-The folder the  following three files:
-        #speed.js
-        #index.js
-        #script.js
-This project was built by:
-.vscode
+The folder the has following three files:
+        #speed.js=> checks drivers speeed
+        #index.js=> for students grading system
+        #script.js=> calculates net salary and deductions on KRA,NHIF and NSSF
 
 INSTALLATION
 For user installation,clone the repo with:
         git clone git@github.com:alexnasir/JS-code-challenge-1.git
 
-USAGE
-The following piece of code prompts the user to input the students mark and which should be between 0 to 100:
+INSTALLATION REQUIREMENTS
+Git Hub
 
-
-                    function input() {
-                    let mark = prompt("Student mark (0-100):");
-                    mark = parseFloat(mark);
-                    if (!isNaN(mark) && mark >= 0 && mark <= 100) {
-                        let grade = grades(mark);
-                        alert(`Grade: ${grade}`);
-                    } else {
-                        alert("NOT VALID!!!");
-                    }
-                    }
-
-                        console.log(input);
-
-Which is graded by the following code : 
-
-        function grades(mark) {
-        if (mark > 79) {
-            return "A";
-        } else if (mark >= 60) {
-            return "B";
-        } else if (mark >= 49) {
-            return "C";
-        } else if (mark >= 40) {
-            return "D";
-        } else {
-            return "E";
-        };
-        }
+Technolgy used
+Javascript
 
 LICENCE 
-Distributed under the MIT License. See LICENSE.txt for more information.
+Distributed under the MIT License copyright (c) 2019-2024
 
-CONTACT
+CONTACT AND SUPPORT
 Name - alexnasiali45@gmail.com
 project Link: git@github.com:alexnasir/JS-code-challenge-1.git
 
